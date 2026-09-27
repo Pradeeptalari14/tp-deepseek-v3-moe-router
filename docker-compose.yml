@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  deepseek-v3-router:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - EXPERTS_COUNT=256
+      - TOP_K=8
+      - DUALPIPE_STAGES=16

@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deepseek-v3-moe-cluster
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: deepseek-v3
+  template:
+    metadata:
+      labels:
+        app: deepseek-v3
+    spec:
+      containers:
+      - name: router
+        image: vllm/vllm-openai:latest
+        resources:
+          limits:
+            nvidia.com/gpu: "8"
+        ports:
+        - containerPort: 8000

@@ -1,0 +1,6 @@
+{
+  "name": "tp-deepseek-v3-moe-router",
+  "version": "1.0.0",
+  "description": "DeepSeek-V3 MoE & DualPipe Studio",
+  "scripts": { "test": "bash scripts/validate.sh" }
+}
