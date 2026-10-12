@@ -1,3 +1,6 @@
+[![Ecosystem](https://img.shields.io/badge/Portfolio%20Ecosystem-341%20Studios-6366f1.svg)](https://pradeeptalari.me/projects/)
+[![Architecture DAG](https://img.shields.io/badge/Architecture-DAG%20%26%20Course-10b981.svg)](https://pradeeptalari.me/tools/repo-learning/)
+
 # DeepSeek-V3 DualPipe & 256-Expert MoE Router Studio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -70,3 +73,6 @@ bash scripts/validate.sh
 ├── SECURITY.md
 └── README.md
 ```
+
+---
+*Synchronized with [DeepSeek-V3 DualPipe & MoE Router Studio Studio](https://pradeeptalari.me/tools/deepseek-v3-moe/) & [Repository Learning DAG](https://pradeeptalari.me/tools/repo-learning/) — [Talari Pradeep Portfolio](https://pradeeptalari.me)*
